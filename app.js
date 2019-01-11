@@ -1,15 +1,15 @@
 const Peer = require('peerjs');
 const uid = require('uid');
 const $ =require('jquery');
-const openStream = require('./openStream');
-const playVideo = require('./playVideo');
+const openStream = require('../openStream');
+const playVideo = require('../playVideo');
 const config ={key:'peerjs'};
 function getPeer(){
     id = Math.random();
     $('#myPeer').html('ID : '+id);
     return id;
 }
-console.log(uid(10));
+console.log(Math.random());
 const peer = new Peer(getPeer(),config);
 console.log(peer);
 $('#btnConnect').click(()=>{
