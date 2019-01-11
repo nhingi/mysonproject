@@ -11,6 +11,10 @@
   "license": "ISC",
   "homepage": "https://sonlong.github.io/mysonproject",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "jquery": "^3.3.1",
+    "peerjs": "^0.3.18",
+    "uid": "0.0.2",
+    "webpack": "^4.28.4"
   }
 }
