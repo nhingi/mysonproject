@@ -5,7 +5,7 @@ const openStream = require('./openStream');
 const playVideo = require('./playVideo');
 const config ={key:'peerjs'};
 function getPeer(){
-    id = uid(10);
+    id = Math.random();
     $('#myPeer').html('ID : '+id);
     return id;
 }
